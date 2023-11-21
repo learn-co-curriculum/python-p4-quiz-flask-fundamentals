@@ -1,0 +1,306 @@
+{
+  "quiz": {
+    "id": 53513,
+    "title": "Flask Fundamentals Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/7560/quizzes/53513",
+    "mobile_url": "https://learning.flatironschool.com/courses/7560/quizzes/53513?force_user=1&persist_headless=1",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-4-quiz-rails-fundamentals\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-4-quiz-rails-fundamentals/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 5,
+    "points_possible": 5.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_53513"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": "",
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/7560/quizzes/53513/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/7560/quizzes/53513/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/7560/quizzes/53513/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/7560/quizzes/53513/submission_versions",
+    "assignment_id": 263686,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 25107,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 4,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": "g5fcb1bee27443fe14437f133dadfba76",
+    "in_paced_course": false,
+    "question_types": [
+
+    ]
+  },
+  "questions": [
+    {
+      "id": 366130,
+      "quiz_id": 53513,
+      "quiz_group_id": null,
+      "assessment_question_id": 632208,
+      "position": null,
+      "question_name": "Question 1",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What is the&nbsp;<code>g</code> object?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 6553,
+          "text": "",
+          "html": "<p>An object that can be used to store anything that you want to store globally for\nthe lifetime of a request. It is reset with each new request.</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 3176,
+          "text": "",
+          "html": "<p>An object that can be used to store anything that you want to store globally for\nthe lifetime of the server.</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite, it is not the life time of the server.&nbsp;</p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 366131,
+      "quiz_id": 53513,
+      "quiz_group_id": null,
+      "assessment_question_id": 631590,
+      "position": null,
+      "question_name": "Question 2",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>How do we parameterize different parts of our routes?&nbsp;</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 9739,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"o\">@</span><span class=\"n\">app</span><span class=\"p\">.</span><span class=\"n\">route</span><span class=\"p\">(</span><span class=\"s\">'/'</span><span class=\"p\">)</span>\n<span class=\"k\">def</span> <span class=\"nf\">user</span><span class=\"p\">(</span><span class=\"n\">username</span><span class=\"p\">):</span>\n    <span class=\"k\">return</span> <span class=\"sa\">f</span><span class=\"s\">'Profile for </span><span class=\"si\">{</span><span class=\"n\">username</span><span class=\"si\">}</span><span class=\"s\">'</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "<p>Not quite! Perhaps we can do something with angle brackets&nbsp;<code>&lt;&gt;</code>?</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 9838,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"o\">@</span><span class=\"n\">app</span><span class=\"p\">.</span><span class=\"n\">route</span><span class=\"p\">(</span><span class=\"s\">'/'</span><span class=\"p\">)</span>\n<span class=\"k\">def</span> <span class=\"nf\">user</span><span class=\"p\">(</span><span class=\"n\">username</span><span class=\"p\">):</span>\n    <span class=\"k\">return</span> <span class=\"sa\">f</span><span class=\"s\">'Profile for </span><span class=\"si\">{</span><span class=\"n\">username</span><span class=\"si\">}</span><span class=\"s\">'</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "<p>Correct! We can also define the username type as a&nbsp; string, int, float, or\npath (string with slashes) by specifying this in the route:</p>\n\n<p>&nbsp;</p>",
+          "weight": 100.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 366129,
+      "quiz_id": 53513,
+      "quiz_group_id": null,
+      "assessment_question_id": 632210,
+      "position": null,
+      "question_name": "Question 3",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Why is Flask called a Microframework?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "Source/s:  Intro to Flask",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7560/pages/intro-to-flask?module_item_id=629360\">Intro to Flask</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": 6897,
+          "text": "",
+          "html": "<p>It only contains the basics we need for a web application.</p>",
+          "comments": "",
+          "comments_html": "<p>Correct! Microframeworks like Flask handle some basic functionality, but more\nspecific duties require extentions <strong>.</strong></p>",
+          "weight": 100.0
+        },
+        {
+          "id": 4013,
+          "text": "",
+          "html": "<p>Flask gives you an ORM, a web server, authentication, and more.&nbsp;</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite. We can extend Flask to include those things using libraries but flask\ndoes not come with everything we need to create a full stack web\napplication.&nbsp;</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 7122,
+          "text": "",
+          "html": "<p>I don't know.</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 366132,
+      "quiz_id": 53513,
+      "quiz_group_id": null,
+      "assessment_question_id": 632209,
+      "position": null,
+      "question_name": "Question 4",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>How do we define a route in flask?&nbsp;</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 9690,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"o\">@</span><span class=\"n\">app</span><span class=\"p\">.</span><span class=\"n\">route</span><span class=\"p\">(</span><span class=\"s\">'/route'</span><span class=\"p\">)</span>\n<span class=\"k\">def</span> <span class=\"nf\">index</span><span class=\"p\">():</span>\n    <span class=\"k\">return</span> <span class=\"s\">'Welcome to my app!'</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "<p>Correct! We use the @app.route() decorator.&nbsp;</p>",
+          "weight": 100.0
+        },
+        {
+          "id": 1414,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"k\">def</span> <span class=\"nf\">index</span><span class=\"p\">(</span><span class=\"s\">'/route'</span><span class=\"p\">):</span>\n    <span class=\"k\">return</span> <span class=\"s\">'Welcome to my app!'</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "<p>Almost! We don't define the route by adding it as a method parameter.&nbsp;</p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 366133,
+      "quiz_id": 53513,
+      "quiz_group_id": null,
+      "assessment_question_id": 632207,
+      "position": null,
+      "question_name": "Question 5",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p>What are some of the things the Flask Shell does for us?&nbsp;</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "4593",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "html": "<p>Runs a development version of the application upon launch</p>"
+        },
+        {
+          "id": "7026",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "html": "<p>Lets us interact with the database.</p>"
+        },
+        {
+          "id": "101",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "html": "<p>Lets us can interact with models</p>"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
