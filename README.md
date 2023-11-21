@@ -1,7 +1,7 @@
 ---
 id: 53513
 course_id: 7560
-repo: phase-4-quiz-rails-fundamentals
+repo: python-p4-quiz-flask-fundamentals
 ---
 
 # Flask Fundamentals Quiz
