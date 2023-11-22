@@ -4,7 +4,7 @@
     "title": "Flask Fundamentals Quiz",
     "html_url": "https://learning.flatironschool.com/courses/7560/quizzes/53513",
     "mobile_url": "https://learning.flatironschool.com/courses/7560/quizzes/53513?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"python-p4-quiz-flask-fundamentals\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/python-p4-quiz-flask-fundamentals/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"python-p4-quiz-flask-fundamentals\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/python-p4-quiz-flask-fundamentals/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 25107,
     "show_correct_answers_last_attempt": true,
-    "version_number": 4,
+    "version_number": 5,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": "g5fcb1bee27443fe14437f133dadfba76",
@@ -111,7 +111,7 @@
           "text": "",
           "html": "<p>An object that can be used to store anything that you want to store globally for\nthe lifetime of the server.</p>",
           "comments": "",
-          "comments_html": "<p>Not quite, it is not the life time of the server.&nbsp;</p>",
+          "comments_html": "<p>Not quite, it is not the life time of the server.</p>",
           "weight": 0.0
         }
       ],
@@ -130,7 +130,7 @@
       "position": null,
       "question_name": "Question 2",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>How do we parameterize different parts of our routes?&nbsp;</p>",
+      "question_text": "<p>How do we parameterize different parts of our routes?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -140,19 +140,19 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 9739,
+          "id": 693,
           "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"o\">@</span><span class=\"n\">app</span><span class=\"p\">.</span><span class=\"n\">route</span><span class=\"p\">(</span><span class=\"s\">'/'</span><span class=\"p\">)</span>\n<span class=\"k\">def</span> <span class=\"nf\">user</span><span class=\"p\">(</span><span class=\"n\">username</span><span class=\"p\">):</span>\n    <span class=\"k\">return</span> <span class=\"sa\">f</span><span class=\"s\">'Profile for </span><span class=\"si\">{</span><span class=\"n\">username</span><span class=\"si\">}</span><span class=\"s\">'</span>\n</code></pre></div>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"o\">@</span><span class=\"n\">app</span><span class=\"p\">.</span><span class=\"n\">route</span><span class=\"p\">(</span><span class=\"s\">'/username'</span><span class=\"p\">)</span>\n<span class=\"k\">def</span> <span class=\"nf\">user</span><span class=\"p\">(</span><span class=\"n\">username</span><span class=\"p\">):</span>\n    <span class=\"k\">return</span> <span class=\"sa\">f</span><span class=\"s\">'Profile for </span><span class=\"si\">{</span><span class=\"n\">username</span><span class=\"si\">}</span><span class=\"s\">'</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p>Not quite! Perhaps we can do something with angle brackets&nbsp;<code>&lt;&gt;</code>?</p>",
+          "comments_html": "<p>Not quite! Perhaps we can do something with angle brackets <code>&lt;&gt;</code>?</p>",
           "weight": 0.0
         },
         {
-          "id": 9838,
+          "id": 6314,
           "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"o\">@</span><span class=\"n\">app</span><span class=\"p\">.</span><span class=\"n\">route</span><span class=\"p\">(</span><span class=\"s\">'/'</span><span class=\"p\">)</span>\n<span class=\"k\">def</span> <span class=\"nf\">user</span><span class=\"p\">(</span><span class=\"n\">username</span><span class=\"p\">):</span>\n    <span class=\"k\">return</span> <span class=\"sa\">f</span><span class=\"s\">'Profile for </span><span class=\"si\">{</span><span class=\"n\">username</span><span class=\"si\">}</span><span class=\"s\">'</span>\n</code></pre></div>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"o\">@</span><span class=\"n\">app</span><span class=\"p\">.</span><span class=\"n\">route</span><span class=\"p\">(</span><span class=\"s\">'/&lt;username&gt;'</span><span class=\"p\">)</span>\n<span class=\"k\">def</span> <span class=\"nf\">user</span><span class=\"p\">(</span><span class=\"n\">username</span><span class=\"p\">):</span>\n    <span class=\"k\">return</span> <span class=\"sa\">f</span><span class=\"s\">'Profile for </span><span class=\"si\">{</span><span class=\"n\">username</span><span class=\"si\">}</span><span class=\"s\">'</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p>Correct! We can also define the username type as a&nbsp; string, int, float, or\npath (string with slashes) by specifying this in the route:</p>\n\n<p>&nbsp;</p>",
+          "comments_html": "<p>Correct! We can also define the username type as a string, int, float,\nor path (string with slashes) by specifying this in the route:</p>\n\n<p><code>'/&lt;string:username&gt;'</code></p>",
           "weight": 100.0
         }
       ],
@@ -185,15 +185,15 @@
           "text": "",
           "html": "<p>It only contains the basics we need for a web application.</p>",
           "comments": "",
-          "comments_html": "<p>Correct! Microframeworks like Flask handle some basic functionality, but more\nspecific duties require extentions <strong>.</strong></p>",
+          "comments_html": "<p>Correct! Microframeworks like Flask handle some basic functionality, but more\nspecific duties require extensions <strong>.</strong></p>",
           "weight": 100.0
         },
         {
-          "id": 4013,
+          "id": 6421,
           "text": "",
-          "html": "<p>Flask gives you an ORM, a web server, authentication, and more.&nbsp;</p>",
+          "html": "<p>Flask gives you an ORM, a web server, authentication, and more.</p>",
           "comments": "",
-          "comments_html": "<p>Not quite. We can extend Flask to include those things using libraries but flask\ndoes not come with everything we need to create a full stack web\napplication.&nbsp;</p>",
+          "comments_html": "<p>Not quite. We can extend Flask to include those things using libraries but\nflask does not come with everything we need to create a full stack web\napplication.</p>",
           "weight": 0.0
         },
         {
@@ -220,7 +220,7 @@
       "position": null,
       "question_name": "Question 4",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>How do we define a route in flask?&nbsp;</p>",
+      "question_text": "<p>How do we define a route in flask?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -234,7 +234,7 @@
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"o\">@</span><span class=\"n\">app</span><span class=\"p\">.</span><span class=\"n\">route</span><span class=\"p\">(</span><span class=\"s\">'/route'</span><span class=\"p\">)</span>\n<span class=\"k\">def</span> <span class=\"nf\">index</span><span class=\"p\">():</span>\n    <span class=\"k\">return</span> <span class=\"s\">'Welcome to my app!'</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p>Correct! We use the @app.route() decorator.&nbsp;</p>",
+          "comments_html": "<p>Correct! We use the @app.route() decorator.</p>",
           "weight": 100.0
         },
         {
@@ -242,7 +242,7 @@
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"k\">def</span> <span class=\"nf\">index</span><span class=\"p\">(</span><span class=\"s\">'/route'</span><span class=\"p\">):</span>\n    <span class=\"k\">return</span> <span class=\"s\">'Welcome to my app!'</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p>Almost! We don't define the route by adding it as a method parameter.&nbsp;</p>",
+          "comments_html": "<p>Almost! We don't define the route by adding it as a method parameter.</p>",
           "weight": 0.0
         }
       ],
@@ -261,7 +261,7 @@
       "position": null,
       "question_name": "Question 5",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>What are some of the things the Flask Shell does for us?&nbsp;</p>",
+      "question_text": "<p>What are some of the things the Flask Shell does for us?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -271,12 +271,12 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": "4593",
+          "id": 1734,
           "text": "",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
-          "html": "<p>Runs a development version of the application upon launch</p>"
+          "html": "<p>Runs a development version of the application upon launch.</p>"
         },
         {
           "id": "7026",
@@ -287,12 +287,12 @@
           "html": "<p>Lets us interact with the database.</p>"
         },
         {
-          "id": "101",
+          "id": 7697,
           "text": "",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
-          "html": "<p>Lets us can interact with models</p>"
+          "html": "<p>Lets us interact with models.</p>"
         }
       ],
       "variables": null,
